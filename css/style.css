@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    font-size: 15px;
+}
+
+:root {
+    /* Primary */
+    --desat-dark-cyan: hsl(180, 29%, 50%);
+    /* Neutral */
+    --light-gray-cyan: hsl(180, 52%, 96%);
+    --light-gray-cyan-filter: hsl(180, 31%, 95%);
+    --dark-gray-cyan: hsl(180, 8%, 52%);
+    --very-dark-gray-cyan: hsl(180, 14%, 20%);
+}
+
+header {
+     background-image: url(../images/bg-header-desktop.svg);
+     background-repeat: no-repeat;
+     background-color:  hsl(180, 29%, 50%);
+     width: 100%;
+     height: 150px;
+     
+}
+
+.left-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-tags {
+    display: flex;
+    align-items: center;
+}
+
+
+.job-info-container {
+    margin-left: 1.25rem;
+}
+
+.job-info-container h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 17px;
+}
+
+ 
+.job-tags p:first-child {
+    color: var(--desat-dark-cyan);
+    font-weight: 700;
+}
+
+.job-tags p:nth-child(2) {
+    background: var(--desat-dark-cyan);
+    color: #fff;
+    border-radius: 30px;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.job-tags p:nth-child(3){
+    background: black;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 30px;
+    margin-left: 0.5rem;
+}
+
+.bottom-tags {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+     
+}
+
+.right-info p {
+    display: inline;
+    color: var(--desat-dark-cyan);
+    background-color: var(--light-gray-cyan-filter);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+
+.cardContainer {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 5rem 1rem 5rem;
+    border-radius: 5px;
+    box-shadow: 2px 5px 15px 5px #e6e6e6;
+}
+
+.cardContainer:nth-child(1), .cardContainer:nth-child(2)  {
+    border-left: 4px solid red;
+}
+
+.top-filter {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem 5rem;
+    background: #fff;
+    box-shadow: 2px 5px 15px 5px #e6e6e6;
+    position: relative;
+    top: -2rem;
+}
+
+.remove-button {
+    display: flex;
+    margin-right: 1rem;
+}
+
+ 
+
+.filters {
+    display: flex;
+    align-items: center;
+}
+
+.filters-left {
+    display: flex;
+    align-items: center;
+}
+
+.filters p {
+    background: var(--light-gray-cyan-filter);
+    padding: 0.5rem;
+    color: var(--desat-dark-cyan)
+}
+
+span {
+    background: var(--desat-dark-cyan);
+    padding: 0.5rem;
+}
+
+.clear {
+    color: var(--desat-dark-cyan);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ 
+
+
+
+ 
